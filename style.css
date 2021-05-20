@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body {
+  font-family: 'Gochi Hand', cursive;
+  background: url(https://lh3.google.com/u/0/d/1j0qC-XfbIqoKp2i4JKxfr-0RsY9aKqJG=w1365-h610-iv1);
+  background-color: wheat;
+  
+}
+
+#topNavBar {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+#searchForm {
+  color: black;
+}
+
+#slideShow {
+  margin-top: 80px;
+}
+
+
+.jumbotron {
+      background: url('https://picsum.photos/1920/400?=1') no-repeat center center / cover;
+      margin-bottom: 0;
+      color: white;
+}
+
+.breadcrumb-back {
+      background-color: #ccc;
+}
+
+#NavigationBar {
+  font-size: 20px;
+}
+
+.breadcrumb-back .breadcrumb {
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.main-footer {
+      padding: 20px 0 0 0;
+      background-color: #000;
+      color: #fff;
+}
+
+.person-pic, .click, .myFavorite {
+  cursor: pointer;
+}
+
+
+.person-pic:hover {
+  cursor: pointer;
+  filter: blur(2px);
+}
